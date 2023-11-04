@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WordCounter</string>
+
+    <string-array name="countingOptions">
+        <item>Words</item>
+        <item>Symbols</item>
+    </string-array>
+
+</resources>
