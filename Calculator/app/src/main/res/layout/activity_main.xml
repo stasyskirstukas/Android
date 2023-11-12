@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="5"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtValue"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#D3D3D3"
+        android:fontFamily="@font/consola"
+        android:padding="10dp"
+        android:text="0"
+        android:textAlignment="textEnd"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <LinearLayout style="@style/buttonRow">
+
+        <Button
+            style="@style/button"
+            android:text="MC" />
+
+        <Button
+            style="@style/button"
+            android:text="MR" />
+
+        <Button
+            style="@style/button"
+            android:text="MS" />
+
+        <Button
+            style="@style/button"
+            android:text="M+" />
+
+        <Button
+            style="@style/button"
+            android:text="M-" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/buttonRow">
+
+        <Button
+            style="@style/button"
+            android:text="←"
+            android:textStyle="bold"
+            android:onClick="btnBackspace"/>
+
+        <Button
+            style="@style/button"
+            android:text="CE" />
+
+        <Button
+            style="@style/button"
+            android:text="C"
+            android:onClick="btnAllClear"/>
+
+        <Button
+            style="@style/button"
+            android:text="±" />
+
+        <Button
+            style="@style/button"
+            android:text="√" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/buttonRow">
+
+        <Button
+            style="@style/button"
+            android:text="7" />
+
+        <Button
+            style="@style/button"
+            android:text="8" />
+
+        <Button
+            style="@style/button"
+            android:text="9" />
+
+        <Button
+            style="@style/button"
+            android:text="/" />
+
+        <Button
+            style="@style/button"
+            android:text="%" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/buttonRow">
+
+        <Button
+            style="@style/button"
+            android:text="4" />
+
+        <Button
+            style="@style/button"
+            android:text="5" />
+
+        <Button
+            style="@style/button"
+            android:text="6" />
+
+        <Button
+            style="@style/button"
+            android:text="*" />
+
+        <Button
+            style="@style/button"
+            android:text="1/x" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/buttonRow">
+
+        <Button
+            style="@style/button"
+            android:text="1" />
+
+        <Button
+            style="@style/button"
+            android:text="2" />
+
+        <Button
+            style="@style/button"
+            android:text="3" />
+
+        <Button
+            style="@style/button"
+            android:text="-" />
+
+        <Button
+            style="@style/button"
+            android:text="=" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/buttonRow">
+
+        <Button
+            style="@style/button"
+            android:layout_weight="2"
+            android:text="0" />
+
+        <Button
+            style="@style/button"
+            android:text="." />
+
+        <Button
+            style="@style/button"
+            android:text="+" />
+
+        <Button
+            style="@style/button"
+            android:text="=" />
+    </LinearLayout>
+
+</LinearLayout>
