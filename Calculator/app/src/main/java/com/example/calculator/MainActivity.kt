@@ -41,4 +41,9 @@ class MainActivity : ComponentActivity() {
     }
     fun btnEqual(view: View) {}
 
+    fun btnTest(view: View)
+    {
+        println(binding.txtValue.text)
+    }
+
 }
